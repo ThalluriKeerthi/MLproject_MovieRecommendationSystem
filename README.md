@@ -7,7 +7,8 @@ A content-based Movie Recommendation System built with Python and Machine Learni
 Movie recommendations based on user input and Content-based filtering approach.
 Uses movie metadata such as: Genres,Keywords,Tagline,Cast and Director.
 Handles spelling mistakes using fuzzy string matching.
-Recommends the top similar movies instantly
+Recommends the top similar movies instantly.
+
 🛠️ Technologies Used
 Python
 NumPy
@@ -16,6 +17,7 @@ Scikit-learn
 TF-IDF Vectorizer
 Cosine Similarity
 Difflib
+
 📂 Dataset
 The project uses a movie dataset (movies.csv) containing movie information such as:
 Title
@@ -24,6 +26,7 @@ Keywords
 Tagline
 Cast
 Director
+
 ⚙️ How It Works:
 Load and preprocess the movie dataset.
 Select important features:
@@ -38,6 +41,7 @@ Calculate similarity scores using Cosine Similarity.
 Accept a movie name from the user.
 Find the closest matching movie title.
 Recommend the most similar movies based on similarity scores.
+
 📸 Example
 
 Input:
@@ -78,14 +82,14 @@ jupyter notebook
 Open:
 
 Movie_Recommendation_System_using_Machine_Learning.ipynb
+
 🔮 Future Improvements
 Add collaborative filtering
 Build a web application using Flask or Streamlit
 Integrate movie posters and ratings
 Deploy the project online
 Improve recommendation accuracy using hybrid models
-👨‍💻 Author
 
-Developed by Keerthi Thalluri
+👨‍💻 Author : Developed by Keerthi Thalluri
 
 ⭐ If you found this project useful, consider giving it a star on GitHub!
